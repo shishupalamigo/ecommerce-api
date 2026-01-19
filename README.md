@@ -202,14 +202,13 @@ http://localhost:3000/api-docs
 ---
 
 ## NOTE:
-```Due to time constraints, automated tests were not added. Given more time, I would add integration tests for auth, cart, and order flows using Jest and Supertest.
-```
 
-## Note: 
-```MongoDB transactions require a replica set. 
+- Due to time constraints, automated tests were not added. Given more time, I would add integration tests for auth, cart, and order flows using Jest and Supertest.
+
+- MongoDB transactions require a replica set. 
 In local development, the application falls back to non-transactional writes.
 In production, a replica set is assumed.
-```
+
 
 
 ##  API Examples
