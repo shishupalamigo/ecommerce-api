@@ -119,6 +119,7 @@ Supports filtering:
 |------|---------|--------|
 | GET | `/cart` | Customer |
 | POST | `/cart/items` | Customer |
+| PUT | `/cart/items/:productId` | Customer |
 | DELETE | `/cart/items/:productId` | Customer |
 
 ---
